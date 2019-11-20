@@ -8,8 +8,7 @@
     "minimalist"
   ],
   "require": {
-    "php": "^5.6",
-    "another-vendor/package": "1.*"
+    "php": "^5.6"
   },
   "homepage": "https://github.com/jannmylj/minimalist-template",
   "authors": [
