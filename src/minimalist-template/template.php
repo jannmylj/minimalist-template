@@ -1,6 +1,6 @@
 <?php
 
-namespace jannmylj\minimalisttemplate\Template;
+namespace jannmylj\minimalisttemplate;
 
 /***************************************************************************
  *                              template.php
