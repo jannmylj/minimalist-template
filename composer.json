@@ -1,0 +1,22 @@
+{
+  "name": "jannmylj/minimalist-template",
+  "type": "project",
+  "license": "MIT",
+  "description": "Copy of Template class. By Nathan Codding of the phpBB group",
+  "keywords": [
+    "template",
+    "minimalist"
+  ],
+  "homepage": "https://github.com/jannmylj/minimalist-template",
+  "authors": [
+    {
+      "name": "Jann Mylj",
+      "email": "jannmylj@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "jannmylj\\minimalist-template\\": "src/"
+    }
+  }
+}
