@@ -1,7 +1,7 @@
 {
   "name": "jannmylj/minimalist-template",
   "type": "project",
-  "license": "GNU",
+  "license": "GPL-2.0-or-later",
   "description": "Copy of Template class. By Nathan Codding of the phpBB group",
   "keywords": [
     "template",
