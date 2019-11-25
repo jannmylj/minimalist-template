@@ -240,7 +240,7 @@ class Template {
 
 		if (!file_exists($filename))
 		{
-			throw new Exception("Template->make_filename(): Erreur - Le fichier $filename est inexistant");
+			throw new \Exception("Template->make_filename(): Erreur - Le fichier $filename est inexistant");
 		}
 
 		return $filename;
@@ -262,7 +262,7 @@ class Template {
 		// If we don't have a file assigned to this handle, die.
 		if (!isset($this->files[$handle]))
 		{
-			throw new Exception("Template->loadfile(): Aucun fichier spécifié pour le modèle $handle");
+			throw new \Exception("Template->loadfile(): Aucun fichier spécifié pour le modèle $handle");
 		}
 
 		$filename = $this->files[$handle];
@@ -270,7 +270,7 @@ class Template {
 		$str = implode("", @file($filename));
 		if (empty($str))
 		{
-			throw new Exception("Template->loadfile(): Le fichier $filename pour le modèle $handle est vide");
+			throw new \Exception("Template->loadfile(): Le fichier $filename pour le modèle $handle est vide");
 		}
 
 		$this->uncompiled_code[$handle] = $str;
